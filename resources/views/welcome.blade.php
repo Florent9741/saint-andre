@@ -2,7 +2,7 @@
 @extends('layouts.app')
 
 @section('main')
-@include('include.abo')
+@include('include.test')
 @endsection
 
 
