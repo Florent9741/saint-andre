@@ -21,6 +21,11 @@ class FilmsController extends Controller
     {
         return view('lien');
     }
+
+    public function test2()
+    {
+        return view('crud');
+    }
     public function index()
     {
         $films = Films::where('affiche', '=', 0)->where('news', '=', 0)->inRandomOrder()->limit(8)->get();

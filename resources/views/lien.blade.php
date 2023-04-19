@@ -1,405 +1,112 @@
 
-@vite(['resources/css/app.css', 'resources/js/app.js'])
-<div class="bg-gray-200 md:overflow-hidden">
-  <div class="px-4 py-16">
-    <div class="relative w-full md:max-w-2xl md:mx-auto text-center">
-      <h1
-        class="font-bold text-gray-700 text-xl sm:text-2xl md:text-5xl leading-tight mb-6"
-      >
-        A simple and smart tool that will help grow your business
-      </h1>
 
-      <p class="text-gray-600 md:text-xl md:px-18">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit hello.
-      </p>
+        @vite('resources/css/app.css')
+        @vite('resources/js/app.js')
 
-      <div
-        class="hidden md:block h-40 w-40 rounded-full bg-blue-800 absolute right-0 bottom-0 -mb-64 -mr-48"
-      ></div>
-
-      <div
-        class="hidden md:block h-5 w-5 rounded-full bg-yellow-500 absolute top-0 right-0 -mr-40 mt-32"
-      ></div>
-    </div>
-  </div>
-
-  <svg
-    class="fill-current bg-gray-200 text-white hidden md:block"
-    xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 1440 320"
-  >
-    <path
-      fill-opacity="1"
-      d="M0,64L120,85.3C240,107,480,149,720,149.3C960,149,1200,107,1320,85.3L1440,64L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"
-    ></path>
-  </svg>
-</div>
-
-<div
-  class="max-w-4xl mx-auto bg-white shadow-lg relative z-20 hidden md:block"
-  style="margin-top: -320px; border-radius: 20px;"
->
-  <div
-    class="h-20 w-20 rounded-full bg-yellow-500 absolute top-0 left-0 -ml-10 -mt-10"
-    style="z-index: -1;"
-  ></div>
-
-  <div
-    class="h-5 w-5 rounded-full bg-blue-500 absolute top-0 left-0 -ml-32 mt-12"
-    style="z-index: -1;"
-  ></div>
-
-  <div class="h-10 bg-white rounded-t-lg border-b border-gray-100"></div>
-  <div class="flex" style="height: 550px;">
-    <div class="w-32 bg-gray-200 p-6 overflow-hidden rounded-bl-lg">
-      <div class="text-center mb-10">
-        <div class="w-10 h-10 rounded-full bg-blue-800 mb-4 mx-auto"></div>
-        <div class="h-2 rounded-full bg-blue-800"></div>
-      </div>
-
-      <div class="text-center mb-10">
-        <div class="w-10 h-10 rounded-full bg-gray-300 mb-4 mx-auto"></div>
-        <div class="h-2 rounded-full bg-gray-300"></div>
-      </div>
-
-      <div class="text-center mb-10">
-        <div class="w-10 h-10 rounded-full bg-gray-300 mb-4 mx-auto"></div>
-        <div class="h-2 rounded-full bg-gray-300"></div>
-      </div>
-
-      <div class="text-center">
-        <div class="w-10 h-10 rounded-full bg-gray-300 mb-4 mx-auto"></div>
-        <div class="h-2 rounded-full bg-gray-300"></div>
-      </div>
-    </div>
-    <div class="flex-1 py-6 px-8">
-      <div class="flex flex-wrap -mx-4">
-        <div class="w-2/3 px-4">
-          <div class="flex flex-wrap -mx-4 mb-10">
-            <div class="w-1/4 px-4">
-              <div class="text-center mb-10 bg-white shadow rounded-lg p-6">
-                <div
-                  class="w-10 h-10 rounded-full bg-green-600 mb-4 mx-auto"
-                ></div>
-                <div class="h-2 rounded-full bg-gray-200"></div>
-              </div>
-            </div>
-            <div class="w-1/4 px-4">
-              <div class="text-center mb-10 bg-white shadow rounded-lg p-6">
-                <div
-                  class="w-10 h-10 rounded-full bg-blue-600 mb-4 mx-auto"
-                ></div>
-                <div class="h-2 rounded-full bg-gray-200"></div>
-              </div>
-            </div>
-            <div class="w-1/4 px-4">
-              <div class="text-center mb-10 bg-white shadow rounded-lg p-6">
-                <div
-                  class="w-10 h-10 rounded-full bg-orange-400 mb-4 mx-auto"
-                ></div>
-                <div class="h-2 rounded-full bg-gray-200"></div>
-              </div>
-            </div>
-            <div class="w-1/4 px-4">
-              <div class="text-center mb-10 bg-white shadow rounded-lg p-6">
-                <div
-                  class="w-10 h-10 rounded-full bg-blue-800 mb-4 mx-auto"
-                ></div>
-                <div class="h-2 rounded-full bg-gray-200"></div>
-              </div>
-            </div>
-          </div>
-
-          <div class="h-32 percentage mb-10 pt-2">
-            <div class="h-4 bg-gray-200 w-64 mb-4 block"></div>
-            <div class="h-4 bg-gray-200 w-32 mb-4 block"></div>
-            <div class="h-4 bg-gray-200 w-40 mb-4 block"></div>
-            <div class="h-4 bg-gray-200 w-20 mb-4 block"></div>
-          </div>
-
-          <div class="w-full flex flex-wrap mb-6">
-            <div class="w-1/2">
-              <div class="flex items-center">
-                <div class="h-8 w-8 rounded-full bg-gray-200 mr-4"></div>
-                <div>
-                  <div class="h-2 w-16 bg-gray-200 mb-1 rounded-full"></div>
-                  <div class="h-2 w-10 bg-gray-100 rounded-full"></div>
+<!-- component -->
+<!-- Code block starts -->
+<dh-component>
+            
+            <div class="py-12 bg-gray-700 transition duration-150 ease-in-out z-10 absolute top-0 right-0 bottom-0 left-0" id="modal">
+                <div role="alert" class="container mx-auto w-11/12 md:w-2/3 max-w-lg">
+                    <div class="relative py-8 px-5 md:px-10 bg-white shadow-md rounded border border-gray-400">
+                        <div class="w-full flex justify-start text-gray-600 mb-3">
+                            <svg  xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-wallet" width="52" height="52" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" />
+                                <path d="M17 8v-3a1 1 0 0 0 -1 -1h-10a2 2 0 0 0 0 4h12a1 1 0 0 1 1 1v3m0 4v3a1 1 0 0 1 -1 1h-12a2 2 0 0 1 -2 -2v-12" />
+                                <path d="M20 12v4h-4a2 2 0 0 1 0 -4h4" />
+                            </svg>
+                        </div>
+                        <h1 class="text-gray-800 font-lg font-bold tracking-normal leading-tight mb-4">Enter Billing Details</h1>
+                        <label for="name" class="text-gray-800 text-sm font-bold leading-tight tracking-normal">Owner Name</label>
+                        <input id="name" class="mb-5 mt-2 text-gray-600 focus:outline-none focus:border focus:border-indigo-700 font-normal w-full h-10 flex items-center pl-3 text-sm border-gray-300 rounded border" placeholder="James" />
+                        <label for="email2" class="text-gray-800 text-sm font-bold leading-tight tracking-normal">Card Number</label>
+                        <div class="relative mb-5 mt-2">
+                            <div class="absolute text-gray-600 flex items-center px-4 border-r h-full">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-credit-card" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" />
+                                    <rect x="3" y="5" width="18" height="14" rx="3" />
+                                    <line x1="3" y1="10" x2="21" y2="10" />
+                                    <line x1="7" y1="15" x2="7.01" y2="15" />
+                                    <line x1="11" y1="15" x2="13" y2="15" />
+                                </svg>
+                            </div>
+                            <input id="email2" class="text-gray-600 focus:outline-none focus:border focus:border-indigo-700 font-normal w-full h-10 flex items-center pl-16 text-sm border-gray-300 rounded border" placeholder="XXXX - XXXX - XXXX - XXXX" />
+                        </div>
+                        <label for="expiry" class="text-gray-800 text-sm font-bold leading-tight tracking-normal">Expiry Date</label>
+                        <div class="relative mb-5 mt-2">
+                            <div class="absolute right-0 text-gray-600 flex items-center pr-3 h-full cursor-pointer">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-event" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" />
+                                    <rect x="4" y="5" width="16" height="16" rx="2" />
+                                    <line x1="16" y1="3" x2="16" y2="7" />
+                                    <line x1="8" y1="3" x2="8" y2="7" />
+                                    <line x1="4" y1="11" x2="20" y2="11" />
+                                    <rect x="8" y="15" width="2" height="2" />
+                                </svg>
+                            </div>
+                            <input id="expiry" class="text-gray-600 focus:outline-none focus:border focus:border-indigo-700 font-normal w-full h-10 flex items-center pl-3 text-sm border-gray-300 rounded border" placeholder="MM/YY" />
+                        </div>
+                        <label for="cvc" class="text-gray-800 text-sm font-bold leading-tight tracking-normal">CVC</label>
+                        <div class="relative mb-5 mt-2">
+                            <div class="absolute right-0 text-gray-600 flex items-center pr-3 h-full cursor-pointer">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-info-circle" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z"></path>
+                                    <circle cx="12" cy="12" r="9"></circle>
+                                    <line x1="12" y1="8" x2="12.01" y2="8"></line>
+                                    <polyline points="11 12 12 12 12 16 13 16"></polyline>
+                                </svg>
+                            </div>
+                            <input id="cvc" class="mb-8 text-gray-600 focus:outline-none focus:border focus:border-indigo-700 font-normal w-full h-10 flex items-center pl-3 text-sm border-gray-300 rounded border" placeholder="MM/YY" />
+                        </div>
+                        <div class="flex items-center justify-start w-full">
+                            <button class="focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 transition duration-150 ease-in-out hover:bg-indigo-600 bg-indigo-700 rounded text-white px-8 py-2 text-sm">Submit</button>
+                            <button class="focus:outline-none focus:ring-2 focus:ring-offset-2  focus:ring-gray-400 ml-3 bg-gray-100 transition duration-150 text-gray-600 ease-in-out hover:border-gray-400 hover:bg-gray-300 border rounded px-8 py-2 text-sm" onclick="modalHandler()">Cancel</button>
+                        </div>
+                        <button class="cursor-pointer absolute top-0 right-0 mt-4 mr-5 text-gray-400 hover:text-gray-600 transition duration-150 ease-in-out rounded focus:ring-2 focus:outline-none focus:ring-gray-600" onclick="modalHandler()" aria-label="close modal" role="button">
+                            <svg  xmlns="http://www.w3.org/2000/svg"  class="icon icon-tabler icon-tabler-x" width="20" height="20" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" />
+                                <line x1="18" y1="6" x2="6" y2="18" />
+                                <line x1="6" y1="6" x2="18" y2="18" />
+                            </svg>
+                        </button>
+                    </div>
                 </div>
-              </div>
             </div>
-            <div class="w-1/2">
-              <div class="flex items-center">
-                <div class="h-8 w-8 rounded-full bg-gray-200 mr-4"></div>
-                <div>
-                  <div class="h-2 w-16 bg-gray-200 mb-1 rounded-full"></div>
-                  <div class="h-2 w-10 bg-gray-100 rounded-full"></div>
-                </div>
-              </div>
+            <div class="w-full flex justify-center py-12" id="button">
+                <button class="focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 mx-auto transition duration-150 ease-in-out hover:bg-indigo-600 bg-indigo-700 rounded text-white px-4 sm:px-8 py-2 text-xs sm:text-sm" onclick="modalHandler(true)">Open Modal</button>
             </div>
-          </div>
-
-          <div class="w-full flex flex-wrap">
-            <div class="w-1/2">
-              <div class="flex items-center">
-                <div class="h-8 w-8 rounded-full bg-gray-200 mr-4"></div>
-                <div>
-                  <div class="h-2 w-16 bg-gray-200 mb-1 rounded-full"></div>
-                  <div class="h-2 w-10 bg-gray-100 rounded-full"></div>
-                </div>
-              </div>
-            </div>
-            <div class="w-1/2">
-              <div class="flex items-center">
-                <div class="h-8 w-8 rounded-full bg-gray-200 mr-4"></div>
-                <div>
-                  <div class="h-2 w-16 bg-gray-200 mb-1 rounded-full"></div>
-                  <div class="h-2 w-10 bg-gray-100 rounded-full"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="w-1/3 px-4">
-          <div class="rounded-lg shadow-lg p-6">
-            <div class="block w-12 h-2 rounded-full bg-gray-200 mb-6"></div>
-
-            <svg
-              height="150"
-              width="150"
-              viewBox="0 0 20 20"
-              class="mx-auto mb-12"
-            >
-              <circle r="10" cx="10" cy="10" fill="#4299e1" />
-              <circle
-                r="5"
-                cx="10"
-                cy="10"
-                fill="transparent"
-                stroke="#2b6cb0"
-                stroke-width="10"
-                stroke-dasharray="11 31.4"
-                transform="rotate(-90) translate(-20)"
-              />
-            </svg>
-
-            <div class="flex flex-wrap -mx-2 mb-10">
-              <div class="w-1/3 px-2">
-                <div class="block h-2 rounded-full bg-gray-200"></div>
-              </div>
-              <div class="w-1/3 px-2">
-                <div class="block h-2 rounded-full bg-gray-200"></div>
-              </div>
-              <div class="w-1/3 px-2">
-                <div class="block h-2 rounded-full bg-gray-200"></div>
-              </div>
-            </div>
-          </div>
-
-          <div class="flex justify-between my-10">
-            <div>
-              <div class="h-2 w-10 bg-gray-300 rounded-full mb-2"></div>
-              <div class="h-2 w-16 bg-gray-300 rounded-full mb-2"></div>
-              <div class="h-2 w-8 bg-gray-300 rounded-full"></div>
-            </div>
-            <div>
-              <div
-                class="ml-auto h-2 w-5 bg-gray-300 rounded-full mb-2"
-              ></div>
-              <div
-                class="ml-auto h-2 w-6 bg-gray-300 rounded-full mb-2"
-              ></div>
-              <div class="ml-auto h-2 w-8 bg-gray-300 rounded-full"></div>
-            </div>
-          </div>
-
-          <div class="text-right flex justify-end">
-            <div class="rounded-lg h-8 w-20 px-4 bg-gray-200 mr-2"></div>
-            <div class="rounded-lg h-8 w-20 px-4 bg-green-400"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="px-4 md:hidden">
-  <div
-    class="-mt-10 max-w-4xl mx-auto bg-white shadow-lg relative z-20"
-    style="border-radius: 20px;"
-  >
-    <div class="h-10 bg-white rounded-t-lg border-b border-gray-100"></div>
-    <div class="flex" style="height: 340px;">
-      <div class="w-16 bg-gray-200 px-2 py-6 overflow-hidden rounded-bl-lg">
-        <div class="text-center mb-6">
-          <div class="w-4 h-4 rounded-full bg-blue-800 mb-2 mx-auto"></div>
-          <div class="h-2 w-8 mx-auto rounded-full bg-blue-800"></div>
-        </div>
-        <div class="text-center mb-6">
-          <div class="w-4 h-4 rounded-full bg-gray-300 mb-2 mx-auto"></div>
-          <div class="h-2 w-8 mx-auto rounded-full bg-gray-300"></div>
-        </div>
-        <div class="text-center mb-6">
-          <div class="w-4 h-4 rounded-full bg-gray-300 mb-2 mx-auto"></div>
-          <div class="h-2 w-8 mx-auto rounded-full bg-gray-300"></div>
-        </div>
-        <div class="text-center">
-          <div class="w-4 h-4 rounded-full bg-gray-300 mb-2 mx-auto"></div>
-          <div class="h-2 w-8 mx-auto rounded-full bg-gray-300"></div>
-        </div>
-      </div>
-      <div class="flex-1 py-6 px-4">
-        <div class="flex flex-wrap -mx-2">
-          <div class="w-1/3 px-2">
-            <div
-              class="text-center mb-6 bg-white shadow rounded-lg px-2 py-3"
-            >
-              <div
-                class="w-4 h-4 rounded-full bg-green-600 mb-2 mx-auto"
-              ></div>
-              <div class="h-2 w-8 mx-auto rounded-full bg-gray-200"></div>
-            </div>
-          </div>
-          <div class="w-1/3 px-2">
-            <div
-              class="text-center mb-6 bg-white shadow rounded-lg px-2 py-3"
-            >
-              <div
-                class="w-4 h-4 rounded-full bg-blue-600 mb-2 mx-auto"
-              ></div>
-              <div class="h-2 w-8 mx-auto rounded-full bg-gray-200"></div>
-            </div>
-          </div>
-          <div class="w-1/3 px-2">
-            <div
-              class="text-center mb-6 bg-white shadow rounded-lg px-2 py-3"
-            >
-              <div
-                class="w-4 h-4 rounded-full bg-orange-600 mb-2 mx-auto"
-              ></div>
-              <div class="h-2 w-8 mx-auto rounded-full bg-gray-200"></div>
-            </div>
-          </div>
-        </div>
-
-        <div class="flex flex-wrap -mx-2 mb-6">
-          <div class="w-1/2 px-2">
-            <div class="shadow h-24 p-2 rounded-lg">
-              <div class="h-20 percentage pt-2">
-                <div class="h-2 bg-gray-200 w-24 mb-2 block"></div>
-                <div class="h-2 bg-gray-200 w-12 mb-2 block"></div>
-                <div class="h-2 bg-gray-200 w-20 mb-2 block"></div>
-                <div class="h-2 bg-gray-200 w-8 mb-2 block"></div>
-              </div>
-            </div>
-          </div>
-          <div class="w-1/2 px-2">
-            <div class="rounded-lg shadow px-2 py-2">
-              <div
-                class="block w-8 h-2 rounded-full bg-gray-200 mb-2"
-              ></div>
-
-              <div class="mb-2">
-                <svg
-                  height="50"
-                  width="50"
-                  viewBox="0 0 20 20"
-                  class="mx-auto"
-                >
-                  <circle r="10" cx="10" cy="10" fill="#ddd" />
-                  <circle
-                    r="5"
-                    cx="10"
-                    cy="10"
-                    fill="transparent"
-                    stroke="#eee"
-                    stroke-width="10"
-                    stroke-dasharray="11 31.4"
-                    transform="rotate(-90) translate(-20)"
-                  />
-                </svg>
-              </div>
-
-              <div class="flex flex-wrap -mx-2">
-                <div class="w-1/3 px-2">
-                  <div class="block h-2 rounded-full bg-gray-200"></div>
-                </div>
-                <div class="w-1/3 px-2">
-                  <div class="block h-2 rounded-full bg-gray-200"></div>
-                </div>
-                <div class="w-1/3 px-2">
-                  <div class="block h-2 rounded-full bg-gray-200"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="w-full flex flex-wrap mb-2">
-          <div class="w-1/2">
-            <div class="flex items-center">
-              <div class="h-4 w-4 rounded-full bg-gray-200 mr-4"></div>
-              <div>
-                <div class="h-2 w-10 bg-gray-200 mb-1 rounded-full"></div>
-                <div class="h-2 w-6 bg-gray-100 rounded-full"></div>
-              </div>
-            </div>
-          </div>
-          <div class="w-1/2">
-            <div class="flex items-center">
-              <div class="h-4 w-4 rounded-full bg-gray-200 mr-4"></div>
-              <div>
-                <div class="h-2 w-10 bg-gray-200 mb-1 rounded-full"></div>
-                <div class="h-2 w-6 bg-gray-100 rounded-full"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="w-full flex flex-wrap mb-6">
-          <div class="w-1/2">
-            <div class="flex items-center">
-              <div class="h-4 w-4 rounded-full bg-gray-200 mr-4"></div>
-              <div>
-                <div class="h-2 w-10 bg-gray-200 mb-1 rounded-full"></div>
-                <div class="h-2 w-6 bg-gray-100 rounded-full"></div>
-              </div>
-            </div>
-          </div>
-          <div class="w-1/2">
-            <div class="flex items-center">
-              <div class="h-4 w-4 rounded-full bg-gray-200 mr-4"></div>
-              <div>
-                <div class="h-2 w-10 bg-gray-200 mb-1 rounded-full"></div>
-                <div class="h-2 w-6 bg-gray-100 rounded-full"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="text-right flex justify-end">
-          <div class="rounded-lg h-6 w-16 px-4 bg-gray-200 mr-2"></div>
-          <div class="rounded-lg h-6 w-16 px-4 bg-green-400"></div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<p class="text-center p-4 text-gray-600 mt-10">
-  Created by
-  <a
-    class="border-b text-blue-500"
-    href="https://twitter.com/mithicher"
-    target="_blank"
-    >@mithicher</a
-  >. Inspired by dribble shot
-  <a
-    href="https://dribbble.com/shots/8807920-Quickpay-Hero-section/attachments/1015863"
-    target="_blank"
-    class="border-b text-blue-500"
-    >https://dribbble.com/vadimdrut</a
-  >
-</p>
-</div>
-</div>
-@include('include.ajouter')
+            <script>
+                let modal = document.getElementById("modal");
+                function modalHandler(val) {
+                    if (val) {
+                        fadeIn(modal);
+                    } else {
+                        fadeOut(modal);
+                    }
+                }
+                function fadeOut(el) {
+                    el.style.opacity = 1;
+                    (function fade() {
+                        if ((el.style.opacity -= 0.1) < 0) {
+                            el.style.display = "none";
+                        } else {
+                            requestAnimationFrame(fade);
+                        }
+                    })();
+                }
+                function fadeIn(el, display) {
+                    el.style.opacity = 0;
+                    el.style.display = display || "flex";
+                    (function fade() {
+                        let val = parseFloat(el.style.opacity);
+                        if (!((val += 0.2) > 1)) {
+                            el.style.opacity = val;
+                            requestAnimationFrame(fade);
+                        }
+                    })();
+                }
+            </script>
+            
+        </dh-component>
+        <!-- Code block ends -->

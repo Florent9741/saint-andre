@@ -17,5 +17,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::post('/Film/ajouter', [FilmsController::class, 'create'])->name('ajouter');
+
 Route::get('/lien', [FilmsController::class, 'test'])->name('lien');
+Route::get('/crud', [FilmsController::class, 'test2'])->name('crud');
